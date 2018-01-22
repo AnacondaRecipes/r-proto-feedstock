@@ -10,8 +10,8 @@ package:
 source:
   fn: proto_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/proto_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/proto/proto_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/proto_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/proto/proto_{{ version }}.tar.gz
   sha256: 9294d9a3b2b680bb6fac17000bfc97453d77c87ef68cfd609b4c4eb6d11d04d1
 
 
